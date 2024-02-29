@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html class="no-js" lang>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <meta name="description" content />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content />
+  <meta property="og:type" content />
+  <meta property="og:url" content />
+  <meta property="og:image" content />
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/icofont.min.css">
+  <link rel="stylesheet" href="supershop.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500&family=Noto+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+
+</head>
+
+<body>
+  <!-- nav bar start -->
+  <header id="navbar" class="section-padding sticky-top bg-nav">
+    <div class="px-3 py-2  head font-size: 20px; text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="supershop.html"
+            class="d-flex align-items-center my-2 me-lg-0 me-lg-auto text-white text-decoration-none brnad_logo">
+            <img src="img/shop/R.png" width="250" height="90" alt="">
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto my-2 justify-content-center my-md-0 nav_item">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="text-transform">Our offers</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#offer">SuperCuppon</a></li>
+                <li><a class="dropdown-item" href="#">Our other offers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#partners" class="nav-link text-white">
+                <span class="text-transform"> Our partners</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="text-transform">SuperShop</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#service-section">What is SuperShop?</a></li>
+                <li><a class="dropdown-item" href="#card">Card types</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="text-transform">Collecting points</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#contact">Collecting points</a></li>
+                <li><a class="dropdown-item" href="#slider">Redemption of points</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-white">
+                <span class="text-transform">Customer service</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">
+                <span class="text-transform_win">Win!</span>
+              </a>
+            </li>
+          </ul>
+          <div class="nav_search">
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 ">
+              <li class="nav-item">
+                <a href="#" class="nav-link search_icon1">
+                  <i class="icofont-search"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link search_icon2">
+                  <i class="icofont-dark-mode"> <img src="img/shop/night-mode.png" alt=""> </i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link search_icon3">
+                  <i class="icofont-astonished"></i>
+                </a>
+              </li>
+              <div class="row">
+                <div class="col-4">
+                  <div class="d-grid">
+                    <button type="button" class="btn btn-light entry">Entry</button>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-fluid">
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-light text-dark me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </header>
+
+  <!-- carousel section start -->
+
+  <div id="slider" class="section-padding">
+    <div class="container-lg-fluid">
+      <div id="supershop_carousel" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#supershop_carousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#supershop_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#supershop_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#supershop_carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#supershop_carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/shop/shop (2).webp" height="600px" class="d-block w-100" alt="shop_carousel_img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/shop/shop (6).webp" height="600px" class="d-block w-100" alt="shop_carousel_img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/shop/shop (3).webp" height="600px" class="d-block w-100" alt="shop_carousel_img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/shop/shop (4).webp" height="600px" class="d-block w-100" alt="shop_carousel_img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/shop/shop (1).webp" height="600px" class="d-block w-100" alt="shop_carousel_img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#supershop_carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#supershop_carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel section end -->
+
+  <!--Service section Start -->
+  <section id="service-section" class="section-padding">
+    <div class="container">
+      <div class="row py-3 ">
+        <div class="col-md-12">
+          <div class="row my-5 service_section_bg">
+            <div class="col-lg-2">
+              <div class="service_section1 text-center">
+                <div class="service_icon">
+                  <i class="icofont-ui-v-card"></i>
+                </div>
+                <div class="service_meta">
+                  <p>Applying for a SuperShop card</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="service_section text-center">
+                <div class="service_icon">
+                  <i class="icofont-edit"></i>
+                </div>
+                <div class="service_meta">
+                  <p>Temporary card registration</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="service_section text-center">
+                <div class="service_icon">
+                  <i class="icofont-wifi-router"></i>
+                </div>
+                <div class="service_meta">
+                  <p>SuperShop NFC card</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="service_section text-center">
+                <div class="service_icon">
+                  <i class="icofont-search-user"></i>
+                </div>
+                <div class="service_meta">
+                  <p>All our partners</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="service_section text-center">
+                <div class="service_icon">
+                  <i class="icofont-question-circle"></i>
+                </div>
+                <div class="service_meta">
+                  <p>Frequency Asked Questions</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="service_section6 text-center">
+                <div class="service_icon">
+                  <i class="icofont-wallet"></i>
+                </div>
+                <div class="service_meta">
+                  <p>How many points can I collect?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Service section end -->
+
+  <!-- offer section start -->
+  <section>
+    <div id="offer" class="section-padding">
+      <div class="container">
+        <div class="section-title me-lg-0 pt-4 ">
+          <h1>Offer</h1>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (2).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+                  <button type="button" class="btn btn-info" style="font-weight: 600;">Star.com</button>
+                </div>
+                <div class="offer-meta pt-4">
+                  <h5>Win a StarVoucher!</h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (1).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+                  <button type="button" class="btn btn-info" style="font-weight: 600;">Voucher.com</button>
+                </div>
+                <div class="offer-meta pt-2">
+                  <h5> Snack for TRIPLA SuperShop points and win! </h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (3).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+                </div>
+                <div class="offer-meta pt-4">
+                  <h5>Shopping is so NICE!</h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5 ">
+          <div class="col-lg-4 ">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (4).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+                  <button type="button" class="btn btn-info" style="font-weight: 600;">REGION.com</button>
+                </div>
+                <div class="offer-meta pt-3">
+                  <h5>Summer toy fair with up to 30% discount!</h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (5).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+
+                </div>
+                <div class="offer-meta pt-3">
+                  <h5>A cheaper price with a SuperShop card!</h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="offer_ads bg-light rounded-2">
+              <div class="offer-item pt-4 text-center">
+                <div class="offer-icon ">
+                  <img src="img/shop/ads (6).webp" width="90%" height="180" class="rounded-2" alt="">
+                </div>
+              </div>
+              <div class="offer_content px-3">
+                <div class="offer_btn pt-4 me-lg-0 text-lg-start">
+                  <button type="button" class="btn btn-warning" style="font-weight: 600;">Offer</button>
+                </div>
+                <div class="offer-meta pt-3">
+                  <h5>A cheaper price with a SuperShop card!</h5>
+                </div>
+                <div class="date_meta mt-5 pb-3 px-1 text-end">
+                  <p>03 August 2023-31 August 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn_center">
+          <button type="button" class="btn btn-light shadow" style="color: #00205B; font-weight: 700;">All
+            offers</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- offer section end -->
+
+
+  <!-- Partner section start -->
+  <section id="partners" class="section-padding">
+    <div class="container">
+      <div class="section-title me-lg-0 pt-5">
+        <h1>Our partners</h1>
+      </div>
+      <div class="row pt-4">
+        <div class="col-lg-3 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (1).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (2).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (3).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (4).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pt-4 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (5).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pt-4 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (6).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pt-4 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (7).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pt-4 text-center">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/shop/partern_logo (8).webp" width="200" height="100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="btn_center pt-4">
+          <button type="button" class="btn btn-light shadow" style="color: #00205B; font-weight: 700;">All
+            partners</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Partner section end -->
+
+
+  <!-- card section start -->
+
+  <section id="card" class="card_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 left_slider">
+          <img src="img/shop/slide.webp" width="100%" alt="">
+        </div>
+        <div class="col-sm-5 left_right text-lg-start">
+          <h1 class="">It is always worth <br>shopping with a <br>SuperShop card</h1><br>
+          <h4>Join the program yourself!</h4>
+          <h6 class="mt-3">Apply for a SuperShop loyalty card!</h6>
+          <button type="button" class="btn btn-primary mt-2" style="font-weight: 700;">Card request</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact section start -->
+
+  <section id="contact" class="section-padding">
+    <div class="container pt-5 pb-5">
+      <div class="section-title me-lg-0 pt-5">
+        <h1>Announcements</h1>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <div class="card contact_content">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary">Information</button>
+              <h4 style="color: #00205bc7;" class="pt-4 contact_btn">Data management registration number</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card contact_content">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary">Information</button>
+              <h4 style="color: #00205bc7;" class="pt-4 pb-4">Your data is safe with us</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section end -->
+
+  <!-- map section start -->
+  <section id="map" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d116690.36477704585!2d88.93422390259298!3d23.940138126096524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d23.9736713!2d88.92222319999999!4m5!1s0x39fe965536b7d61f%3A0x28fea367efdb38c9!2sKushtia!3m2!1d23.9088541!2d89.12218179999999!5e0!3m2!1sen!2sbd!4v1691082948082!5m2!1sen!2sbd"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="book-form">
+            <form action="">
+              <div class="mb-4">
+                <input type="text" class="form-control rounded-0" placeholder="Full Name" name="" id="">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control rounded-0" placeholder="Email" name="" id="">
+              </div>
+          </div>
+          <div class="mb-4">
+            <input type="phone" class="form-control rounded-0" placeholder="Phone" name="" id="">
+          </div>
+
+          <div class="mb-4">
+            <input type="address" class="form-control rounded-0" placeholder="Address" name="" id="">
+          </div>
+          
+          <div class="mb-4">
+            <textarea name="" id="" class="form-control rounded-0" cols="10" rows="5"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="button" class="btn btn-primary">Registration</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- map section end -->
+
+
+
+
+
+
+  <!-- footer section start -->
+  <section id="footer" class="section-padding pt-5">
+    <div class="container-lg-fluid pt-5">
+
+      <footer class="text-white text-center text-lg-start" style="background-color: #00205B;">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row pt-4">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">About company</h5>
+              <p style="color: #ffffff89;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium
+                voluptatum deleniti atque corrupti.</p>
+              <p style="color: #ffffff89;">
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.</p>
+
+              <div class="mt-4 social">
+                <!-- Facebook -->
+                <a type="button" class="btn btn-floating btn-warning btn-sm rounded"><i
+                    class="icofont-facebook"></i></a>
+                <!-- Dribbble -->
+                <a type="button" class="btn btn-floating btn-warning btn-sm"><i class="icofont-email"></i></a>
+                <!-- Twitter -->
+                <a type="button" class="btn btn-floating btn-warning btn-sm"><i class="icofont-twitter"></i></a>
+                <!-- Google + -->
+                <a type="button" class="btn btn-floating btn-warning btn-sm"><i class="icofont-instagram"></i></a>
+                <!-- Linkedin -->
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="formControlLg" placeholder="search" class="form-control form-control-lg">
+              </div>
+              <ul style="color: #ffffff89;" class="fa-ul list-unstyled" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                  <span class="fa-li"><i class="icofont-location-pin"></i></span><span class="ms-2">13/1, Ka,
+                    panthapath</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="icofont-email"></i></span><span class="ms-2">info@example.com</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="icofont-phone"></i></span><span class="ms-2">+ 01 234 567 89</span>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+              <table class="table text-center text-white">
+                <tbody class="font-weight-normal" style="color: #ffffff89;">
+                  <tr>
+                    <td>Friday - Thursday</td>
+                  </tr>
+                  <tr>
+                    <td>24/7 Hours Online Services</td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          Copyright &copy; 2023
+          <a class="text-white" href="https://mdbootstrap.com/">SuperShop. All right reserved.</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+  </section>
+  <!-- footer section end -->
+
+
+
+</body>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</html>

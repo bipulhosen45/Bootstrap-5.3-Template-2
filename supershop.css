@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.section-padding {
+    background-color: #e1ecef;
+
+}
+
+.head {
+    background: #00205B;
+}
+
+.nav-transform i {
+    text-transform: uppercase;
+}
+.bg-nav {
+    background: #00205b6e;
+}
+
+.na_icon {
+    width: 70px;
+    height: 70px;
+}
+
+.text-transform {
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Inconsolata', monospace; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Lobster Two', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.text-transform_win {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: rgb(216, 220, 9);
+    font-weight: 800;
+}
+
+.Sign-up {}
+
+.search_icon1 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.search_icon2 img {
+    margin-top: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+.search_icon3 {
+    color: yellow;
+    font-size: 22px;
+}
+
+.entry {
+    font-weight: 600;
+    margin: 6px;
+}
+
+/* nav end */
+
+/* carousel start */
+
+.carousel-indicators [data-bs-target] {  
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color: #00205B;
+}
+
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background: #fff;
+    padding: 15px 25px 15px 50px;
+
+    left: 0;
+    border-radius: 0 40px 40px 0;
+    margin-right: 180px;
+}
+
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background: #fff;
+    padding: 15px 25px 15px 50px;
+    left: 0;
+    border-radius: 40px 0px 0px 40px;
+    margin-left: 180px;
+}
+
+/* service section start */
+
+
+.service_bg {
+    background: #e1ecef;
+}
+
+.service_section_bg {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.col-lg-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.service_section {
+    transition: .05s;
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: .01px solid #e1ecef65;
+    color: #00205B;
+    font-weight: 600;
+    
+}
+.service_section1 {
+    border-radius: 10px 0 0 10px;
+    transition: .05s;
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: .01px solid #e1ecef65;
+    color: #00205B;
+    font-weight: 600;
+    
+}
+.service_section6 {
+    border-radius: 0 10px 10px 0;
+    transition: .05s;
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: .01px solid #e1ecef65;
+    color: #00205B;
+    font-weight: 600;
+}
+
+.service_section:hover {
+    background: #00205B;
+    color: #fff;
+}
+.service_section1:hover {
+    background: #00205B;
+    color: #fff;
+}
+.service_section6:hover {
+    background: #00205B;
+    color: #fff;
+}
+.service_icon{
+    font-size: 50px;
+    color: #00205bdd;
+    font-weight: 100;
+    
+}
+.service_icon:hover{
+    color: #fff;
+}
+.service_meta{
+    
+}
+
+/* service section end */
+
+/* offer section start */
+.section-title {
+    color: #00205B;
+    font-family: 'Oswald', sans-serif;    
+    font-weight: 800;
+}
+
+.offer-meta{
+    color: #00205B;
+}
+.offer_ads:hover{
+    box-shadow:  6px 8px 0 rgba(0, 0, 0, 0.081), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
+    transition: .5s;
+}
+.btn_center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00205B;
+}
+.date_meta p{
+    color: #00205b88;
+}
+/* offer section end */
+
+
+/* card section */
+.card_section{
+    background: #e1ecef;
+}
+#card{
+    color: #00205B;
+    background-color: #e1ecef;
+}
+.left_slider{
+    margin-top: 90px;
+    
+}
+.left_right{   
+    margin-top: 90px;
+    padding-left: 30px;
+
+}
+/* contact area */
+
+.contact{
+    color: #00205B;
+    background-color: #e1ecef;
+
+}
+.contact_content:hover{
+    box-shadow:  6px 8px 0 rgba(0, 0, 0, 0.081), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
+    transition: .5s;
+    color: #00205b75;
+}
+
+
+
+/*  footer section start  */
+#footer{
+    color: #00205B;
+    background-color: #e1ecef;
+}
+
+/*  footer section end  */
